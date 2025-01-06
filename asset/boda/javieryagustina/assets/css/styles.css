@@ -120,6 +120,12 @@ a:hover{
 .divCanciones{
   opacity: 0;
 }
+.divMomento{
+  opacity: 0;
+}
+.divNiños{
+  opacity: 0;
+}
 .divAlojamientos{
   opacity: 0;
 }
@@ -554,6 +560,29 @@ section.dresscode p{
 
 /* ---------- */
 
+/* NINOS */
+
+section.niños{
+  z-index: 1;
+  display: flex;
+  position: relative;
+  text-align: center;
+  padding: 70px 0 70px;
+  background-color: var(--color-secundario);
+}
+
+section.niños h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section.niños p{
+  color: white;
+}
+
+/* ---------- */
+
 
 /* INSTAGRAM */
 
@@ -630,6 +659,26 @@ section.canciones p{
 }
 
 section.canciones img.icon{
+  width: 150px;
+}
+
+/* MOMENTO */
+
+section.momento{
+  text-align: center;
+  padding: 70px 0 100px;
+}
+
+section.momento h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section.momento p{
+  margin-bottom: 20px;
+}
+
+section.momento img.icon{
   width: 150px;
 }
 

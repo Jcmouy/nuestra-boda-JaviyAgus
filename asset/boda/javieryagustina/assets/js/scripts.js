@@ -222,6 +222,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   var divCanciones = document.querySelector(".divCanciones");
+  var divMomento = document.querySelector(".divMomento");
+  var divNiños = document.querySelector(".divNiños");
   var divAlojamientos = document.querySelector(".divAlojamientos");
   var divGracias = document.querySelector(".divGracias");
   var divCeremonia = document.querySelector(".divCeremonia");
@@ -267,6 +269,8 @@ document.addEventListener("DOMContentLoaded", function () {
       divIntagram ? aplicarAnimacionSiEnViewport(divIntagram, fadeInUpClass):null; 
       divAlbum ? aplicarAnimacionSiEnViewport(divAlbum, fadeInUpClass):null;   
       divCanciones ? aplicarAnimacionSiEnViewport(divCanciones, fadeInUpClass):null;    
+      divNiños ? aplicarAnimacionSiEnViewport(divNiños, fadeInUpClass):null;    
+      divMomento ? aplicarAnimacionSiEnViewport(divMomento, fadeInUpClass):null;    
       divGracias ? aplicarAnimacionSiEnViewport(divGracias, fadeInUpClass):null;    
       divFiesta ? aplicarAnimacionSiEnViewport(divFiesta, fadeInUpClass):null;
       divCivil ? aplicarAnimacionSiEnViewport(divCivil, fadeInUpClass):null;

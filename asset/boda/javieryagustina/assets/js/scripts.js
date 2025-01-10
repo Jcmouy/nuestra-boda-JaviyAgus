@@ -132,6 +132,19 @@ videoElement.addEventListener("pause", function() {
 
 // ----------------------
 
+// Modificar boton de confirmacion luego de que expira
+
+document.addEventListener('DOMContentLoaded', function() {
+  var currentDate = new Date();
+  var cutoffDate = new Date('2025-01-09T23:59:59');
+
+  if (currentDate > cutoffDate) {
+    document.getElementById('confirmarAsistencia').href = 'https://youtu.be/cm4qKxJtix8?si=tIpL76SoayTcrmv4';
+  }
+});
+
+// ----------------------
+
 // Agendar en calendarios
 
 var calendarioPrueba = () => {
